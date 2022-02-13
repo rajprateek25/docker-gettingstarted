@@ -76,6 +76,7 @@ Running an app involves following steps:
 
 #### Download .Zip
 We can easily download the project .zip file as shown in the screenshot below:
+
 ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic5.JPG)
 
 #### Clone via HTTPS
@@ -88,6 +89,7 @@ git clone https://github.com/docker/getting-started.git
 #### Clone via SSH
 To clone the project using ssh , we first need to create an ssh key pair and upload our public key in our GitHub account.
 - Create ssh key pair using `ssh-keygen`
+
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic7.JPG)
 
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic8.JPG)
