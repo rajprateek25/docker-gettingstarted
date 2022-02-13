@@ -1,9 +1,20 @@
 # Docker Getting Started Challenge
 The purpose of this document is to provide a walk-through for:
-- [Docker Desktop on Windows](##Docker-Desktop-on-Windows)
-- [Getting acquainted with Docker](##Getting-acquainted-with-Docker)
-- [Running a simple app in a Docker Container](##Running-a-simple-app-in-a-Docker-Container)
+- Installing Docker Desktop on Windows
+- Getting acquainted with Docker
+- Downloading and running a simple app in a Docker Container
 
+# Contents
+- Docker Desktop on Windows
+ - Windows Subsystem for Linux (WSL)
+- Getting acquainted with Docker
+- Download and Run an app in a Docker Container
+ - Get the App
+  - Download .Zip
+  - Clone via HTTPS
+  - Clone via SSH
+ - Create Container Image
+ - Spin the Container
 
 ## Docker Desktop on Windows
 Follow the steps on the below link to install Docker on your desktop:
@@ -132,7 +143,7 @@ We need to use a `Dockerfile` to build the application. A Dockerfile is a text-b
     
     `.` at the end of the docker build command tells Docker to look for the Dockerfile in the current directory.
 
-### Spin Container
+### Spin the Container
 Start the container using the `docker run` command and specify the name of the image we just created:
 ```
 docker run -dp 3000:3000 getting-started
