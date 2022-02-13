@@ -16,7 +16,6 @@ Apart from Microsoft Store, we may also use WSL commands in powershell or comman
     $ wsl --list --online
     ```
     ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic2.JPG)
-
 - To specify the choice of Linux Distribution to be installed as a subsystem
     ```
     $ wsl --install --distribution <Distribution Name>
@@ -64,8 +63,9 @@ $ docker run -d -p 6000:6379 --name <custom_name> redis
 Renames the container to a custom name using `--name` switch.
 
 ## Download and Run a simple application in a Docker Container
-What is the Application about?
+**What is the Application about?**
 > The application is a simple To Do list where you can add or delete items. You may also mark the entries as completed.
+
 
 Running an application involves following steps:
 1. Download the application code.
