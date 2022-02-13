@@ -55,17 +55,17 @@ Stop or Start a container using container ID
 ```
 docker run -p 6001:6379 -d redis
 ```
-Maps port 6001 from the host to 6379 from the container using `-p` switch. When we hit the host port 6001, the connection is redirected to container port 6379.
+`-p` maps host port 6001 to container port 6379. `-d` runs the container in detach mode.
 ```
 docker run -d -p 6000:6379 --name <custom_name> redis
 ```
 Renames the container to a custom name using `--name` switch.
 
-## Download and Run a simple app in a Docker Container
-Running an app involves following steps:
-1. Download the app to Local Inventory Directory
-1. Create a Docker Image using Dockerfile 
-1. Spin up the Container using Docker Image
+## Download and Run a simple application in a Docker Container
+Running an application involves following steps:
+1. Download the application code.
+1. Create a Docker Image using Dockerfile. 
+1. Spin up a Container using Docker Image.
 
 ### Get the App
 - You can find the project source code at [Github repository](https://github.com/docker/getting-started)
