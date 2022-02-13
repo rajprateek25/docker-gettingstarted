@@ -9,25 +9,24 @@ Follow the steps on the below link to install Docker on your desktop:
 - [Install Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/ "Official Website: Docker")
 
 ### Windows Subsystem for Linux (WSL)
-Apart from Microsoft Store, we may also use wsl commands in powershell or command prompt to manage Linux distributions:
+Apart from Microsoft Store, we may also use WSL commands in powershell or command prompt to manage Linux distributions.
 
-Lists all the available Linux Distributions for download/install.
-```
-wsl --list --online
-```
-![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic2.JPG)
+- To list all the available Linux Distributions for download/install
+    ```
+    wsl --list --online
+    ```
+    ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic2.JPG)
 
-Specify the choice of Linux Distribution to install as a subsystem.
-```
-wsl --install --distribution <Distribution Name>
-```
-
-Lists currently running subsystems on your system.
-```
-wsl --list
-```
-![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic4.JPG)
-
+- To specify the choice of Linux Distribution to be installed as a subsystem
+    ```
+    wsl --install --distribution <Distribution Name>
+    ```
+- To list currently running subsystems on your system
+    ```
+    wsl --list
+    ```
+    ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic4.JPG)
+    
 Click here to learn more about [Basic WSL Commands](https://docs.microsoft.com/en-us/windows/wsl/basic-commands)
 
 ## Getting acquainted with Docker
