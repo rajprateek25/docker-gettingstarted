@@ -86,9 +86,9 @@ git clone https://github.com/docker/getting-started.git
 #### Clone via SSH
 To clone the project using ssh , we first need to create an ssh key pair and upload our public key in our GitHub account.
 - Create ssh key pair using `ssh-keygen`
-
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic7.JPG)
 
+- You may view the public/private keys under ~/.ssh directory
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic8.JPG)
 
 - Add the public key to your GitHub Account
@@ -96,6 +96,7 @@ To clone the project using ssh , we first need to create an ssh key pair and upl
   Go to **Settings** -> **SSH and GPG Keys** -> **New SSH Key** --> Paste the public key and Enter a Title -> **Add SSH Key**
 
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic11.JPG)
+  ---
 
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic12.JPG)
 
