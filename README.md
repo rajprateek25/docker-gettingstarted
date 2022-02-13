@@ -4,18 +4,6 @@ The purpose of this document is to provide a walk-through for:
 - Getting acquainted with Docker
 - Downloading and running a simple app in a Docker Container
 
-# Contents
-- Docker Desktop on Windows
- - Windows Subsystem for Linux (WSL)
-- Getting acquainted with Docker
-- Download and Run an app in a Docker Container
- - Get the App
-  - Download .Zip
-  - Clone via HTTPS
-  - Clone via SSH
- - Create Container Image
- - Spin the Container
-
 ## Docker Desktop on Windows
 Follow the steps on the below link to install Docker on your desktop:
 
@@ -28,7 +16,9 @@ Apart from Microsoft Store, we may also use wsl commands in powershell or comman
 wsl --list --online
 ```
 Lists all the available Linux Distributions for download/install.
+
 ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic2.JPG)
+
 ```
 wsl --install --distribution <Distribution Name>
 ```
@@ -37,6 +27,7 @@ Specify the choice of Linux Distribution to install as a subsystem
 wsl --list
 ```
 Lists currently running subsystems on your system
+
 ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic4.JPG)
 
 Click here to learn more about [Basic WSL Commands](https://docs.microsoft.com/en-us/windows/wsl/basic-commands)
