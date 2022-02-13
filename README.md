@@ -55,7 +55,9 @@ Stop or Start a container using container ID
 ```
 docker run -p 6001:6379 -d redis
 ```
-`-p` maps host port 6001 to container port 6379. `-d` runs the container in detach mode.
+`-p` maps host port 6001 to container port 6379.
+
+`-d` runs the container in detach mode.
 ```
 docker run -d -p 6000:6379 --name <custom_name> redis
 ```
@@ -131,6 +133,7 @@ We need to use a `Dockerfile` to build the application. A Dockerfile is a text-b
     docker build -t getting-started .
     ```
     `-t` flag tags the image with name **getting-started**.
+    
     `.` at the end of the docker build command tells Docker to look for the Dockerfile in the current directory.
 
 ### Spin the Container
@@ -138,7 +141,7 @@ Start the container using the `docker run` command and specify the name of the i
 ```
 docker run -dp 3000:3000 getting-started
 ```
-Now, on the host machine, open your web browser to http://localhost:3000. You should see the app
+Now, on the host machine, open your web browser to http://localhost:3000. You should see the application running.
 
 ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic15.JPG)
 
