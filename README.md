@@ -97,10 +97,7 @@ To clone the project using ssh, first create an ssh key pair and upload the publ
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic8.JPG)
 
 - Add the public key to your GitHub Account
-
   Go to **Settings** -> **SSH and GPG Keys** -> **New SSH Key** --> Paste the public key and Enter a Title -> **Add SSH Key**
-  ---
-
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic12.JPG)
 
 
