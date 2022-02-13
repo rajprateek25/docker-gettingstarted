@@ -13,17 +13,17 @@ Apart from Microsoft Store, we may also use WSL commands in powershell or comman
 
 - To list all the available Linux Distributions for download/install
     ```
-    wsl --list --online
+    $ wsl --list --online
     ```
     ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic2.JPG)
 
 - To specify the choice of Linux Distribution to be installed as a subsystem
     ```
-    wsl --install --distribution <Distribution Name>
+    $ wsl --install --distribution <Distribution Name>
     ```
 - To list currently running subsystems on your system
     ```
-    wsl --list
+    $ wsl --list
     ```
     ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic4.JPG)
     
@@ -32,34 +32,34 @@ Click here to learn more about [Basic WSL Commands](https://docs.microsoft.com/e
 ## Getting acquainted with Docker
 The following commands will help get started with Docker:
 ```
-docker pull redis
+$ docker pull redis
 ```
 Pulls the latest `redis` image from docker hub to your computer
 ```
-docker run redis
+$ docker run redis
 ```
 Pulls the latest `redis` image from docker hub and runs a container using this image
 ```
-docker ps
+$ docker ps
 ```
 Shows the list of running containers
 ```
-docker images
+$ docker images
 ```
 Shows list of available docker images on your computer
 ```
-docker stop/start <container_id>
+$ docker stop/start <container_id>
 ```
 Stop or Start a container using container ID
 
 ```
-docker run -p 6001:6379 -d redis
+$ docker run -p 6001:6379 -d redis
 ```
 `-p` maps host port 6001 to container port 6379.
 
 `-d` runs the container in detach mode.
 ```
-docker run -d -p 6000:6379 --name <custom_name> redis
+$ docker run -d -p 6000:6379 --name <custom_name> redis
 ```
 Renames the container to a custom name using `--name` switch.
 
@@ -84,7 +84,7 @@ You can easily download the project .zip file as shown in the screenshot below:
 #### Clone via HTTPS
 Since the GitHub repository `getting started` is public, you can simply use following command to clone the project:
 ```
-git clone https://github.com/docker/getting-started.git
+$ git clone https://github.com/docker/getting-started.git
 ```
 ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic6.JPG)
 
@@ -109,7 +109,7 @@ To clone the project using ssh, first create an ssh key pair and upload the publ
 You may now use ssh to clone the repository:
 
 ```
-git clone git@github.com:docker/getting-started.git
+$ git clone git@github.com:docker/getting-started.git
 ```
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic13.JPG)
 
@@ -133,7 +133,7 @@ We need to use a `Dockerfile` to build the application. A Dockerfile is a text-b
     ```
 1. Switch to the `app` directory and build the container image using `docker build` command
     ```
-    docker build -t getting-started .
+    $ docker build -t getting-started .
     ```
     `-t` flag tags the image with name **getting-started**.
     
@@ -142,7 +142,7 @@ We need to use a `Dockerfile` to build the application. A Dockerfile is a text-b
 ### Spin the Container
 Start the container using the `docker run` command and specify the name of the image we just created:
 ```
-docker run -dp 3000:3000 getting-started
+$ docker run -dp 3000:3000 getting-started
 ```
 Now, on the host machine, open your web browser to http://localhost:3000. You should see the application running.
 
