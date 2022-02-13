@@ -16,6 +16,7 @@ Apart from Microsoft Store, we may also use WSL commands in powershell or comman
     $ wsl --list --online
     ```
     ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic2.JPG)
+    
 - To specify the choice of Linux Distribution to be installed as a subsystem
     ```
     $ wsl --install --distribution <Distribution Name>
