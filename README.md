@@ -113,7 +113,9 @@ git clone git@github.com:docker/getting-started.git
 ```
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic13.JPG)
 
-> TIP: 
+<br />
+<br />
+> **TIP:**
 - If you face issues cloning the project via https/ssh, check your DNS settings and ensure you're not connected to a VPN. 
 - After the project is cloned, you may use `code .` from within the WSL to open the project for editing.
       ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic14.JPG)
