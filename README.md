@@ -72,19 +72,19 @@ Running an application involves following steps:
 - You may download the code as a zip file or clone the repository via https/ssh.
 
 #### Download .Zip
-We can easily download the project .zip file as shown in the screenshot below:
+You can easily download the project .zip file as shown in the screenshot below:
 
 ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic5.JPG)
 
 #### Clone via HTTPS
-Since the GitHub repository `getting started` is public, we can simply use following command to clone the project to our local inventory directory:
+Since the GitHub repository `getting started` is public, you can simply use following command to clone the project:
 ```
 git clone https://github.com/docker/getting-started.git
 ```
 ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic6.JPG)
 
 #### Clone via SSH
-To clone the project using ssh , we first need to create an ssh key pair and upload our public key in our GitHub account.
+To clone the project using ssh, first create an ssh key pair and upload the public key in your GitHub account.
 - Create ssh key pair using `ssh-keygen`
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic7.JPG)
 
@@ -101,7 +101,7 @@ To clone the project using ssh , we first need to create an ssh key pair and upl
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic12.JPG)
 
 
-We can now use ssh to clone the repository:
+You may now use ssh to clone the repository:
 
 ```
 git clone git@github.com:docker/getting-started.git
