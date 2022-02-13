@@ -64,12 +64,15 @@ docker run -d -p 6000:6379 --name <custom_name> redis
 Renames the container to a custom name using `--name` switch.
 
 ## Download and Run a simple application in a Docker Container
+What is the Application about?
+> The application is a simple To Do list where you can add or delete items. You may also mark the entries as completed.
+
 Running an application involves following steps:
 1. Download the application code.
 1. Create a Docker Image using Dockerfile. 
 1. Spin up a Container using Docker Image.
 
-### Get the App
+### Get the Application
 - You can find the project source code at [Github repository](https://github.com/docker/getting-started)
 - You may download the code as a zip file or clone the repository via https/ssh.
 
@@ -145,4 +148,4 @@ Now, on the host machine, open your web browser to http://localhost:3000. You sh
 
 ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic15.JPG)
 
-Try adding an item or two. You can mark items as complete and remove items.
+Test your application by adding a few items to the list, removing items or marking items as complete.
