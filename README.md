@@ -2,12 +2,11 @@
 The purpose of this document is to provide a walk-through for:
 - Installing Docker Desktop on Windows
 - Getting acquainted with Docker
-- Downloading and running a simple app in a Docker Container
+- Downloading and running a simple application in a Docker Container
 
 ## Docker Desktop on Windows
 Follow the steps on the below link to install Docker on your desktop:
-
-[Install Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/ "Official Website: Docker")
+- [Install Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/ "Official Website: Docker")
 
 ### Windows Subsystem for Linux (WSL)
 Apart from Microsoft Store, we may also use wsl commands in powershell or command prompt to manage Linux distributions:
