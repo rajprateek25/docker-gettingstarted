@@ -69,7 +69,7 @@ Running an application involves following steps:
 
 ### Get the App
 - You can find the project source code at [Github repository](https://github.com/docker/getting-started)
-- You may choose to download the zip or clone the repository via https/ssh.
+- You may download the code as a zip file or clone the repository via https/ssh.
 
 #### Download .Zip
 We can easily download the project .zip file as shown in the screenshot below:
