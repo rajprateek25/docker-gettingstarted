@@ -1,4 +1,4 @@
-# Docker Getting Started Challenge
+# Docker: Getting Started Challenge
 The purpose of this document is to provide a walk-through for:
 - Installing Docker Desktop on Windows
 - Getting acquainted with Docker
@@ -12,22 +12,21 @@ Follow the steps on the below link to install Docker on your desktop:
 ### Windows Subsystem for Linux (WSL)
 Apart from Microsoft Store, we may also use wsl commands in powershell or command prompt to manage Linux distributions:
 
+Lists all the available Linux Distributions for download/install.
 ```
 wsl --list --online
 ```
-Lists all the available Linux Distributions for download/install.
-
 ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic2.JPG)
 
+Specify the choice of Linux Distribution to install as a subsystem.
 ```
 wsl --install --distribution <Distribution Name>
 ```
-Specify the choice of Linux Distribution to install as a subsystem
+
+Lists currently running subsystems on your system.
 ```
 wsl --list
 ```
-Lists currently running subsystems on your system
-
 ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic4.JPG)
 
 Click here to learn more about [Basic WSL Commands](https://docs.microsoft.com/en-us/windows/wsl/basic-commands)
