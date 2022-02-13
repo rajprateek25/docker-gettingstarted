@@ -126,12 +126,11 @@ We need to use a `Dockerfile` to build the application. A Dockerfile is a text-b
     RUN yarn install --production
     CMD ["node", "src/index.js"]
     ```
-1. Switch to the `app` directory, and build the container image using `docker build` command
+1. Switch to the `app` directory and build the container image using `docker build` command
     ```
     docker build -t getting-started .
     ```
-    `-t` flag tags our image with the name getting-started
-    
+    `-t` flag tags the image with name **getting-started**.
     `.` at the end of the docker build command tells Docker to look for the Dockerfile in the current directory.
 
 ### Spin the Container
