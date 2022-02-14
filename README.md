@@ -50,12 +50,10 @@ Shows list of available docker images on your computer
 $ docker stop/start <container_id>
 ```
 Stop or Start a container using container ID
-
 ```
 $ docker run -p 6001:6379 -d redis
 ```
-`-p` maps host port 6001 to container port 6379.
-
+`-p` maps host port 6001 to container port 6379.\
 `-d` runs the container in detach mode.
 ```
 $ docker run -d -p 6000:6379 --name <custom_name> redis
