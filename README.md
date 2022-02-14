@@ -141,7 +141,7 @@ Deployment is complete! Test your application by adding a few items to the list,
 ## Leveraging Docker-Tech!
 Docker has many advantages and application scenarios:
 
-**Light-weight**\
+- **Light-weight**\
 Docker uses OS-level virtualization unlike Virtual Machines. This allows the applications to be packaged with their dependencies and delivered in light-weight containers.
 
 **Reproducibility**\
