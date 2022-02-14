@@ -144,20 +144,20 @@ Docker has many advantages and application scenarios:
 - **Light-weight**\
 Docker uses OS-level virtualization unlike Virtual Machines. This allows the applications to be packaged with their dependencies and delivered in light-weight containers.
 
-**Reproducibility**\
+- **Reproducibility**\
 Application is developed locally and shared as Docker Containers. The exact configurations of a container is written in the `DockerFile`. Sharing the DockerFile among team members ensures identical functionality and thus standardized applications.
 
-**Portability**\
+- **Portability**\
 Docker containers can run on a laptop, on physical or virtual machines in a data center, on cloud providers, or in a hybrid of these environments.
 
-**Isolation**\
+- **Isolation**\
 Docker uses `namespaces` to provide isolated workspace called the container. When you run a container, Docker creates a set of namespaces for that container. These namespaces provide a layer of isolation. Each container runs in a separate namespace and its access is limited to that namespace.\
 We can run multiple applications on one piece of infrastructure without interfering with each other. The dependencies or configurations in one container do not impede with other containers on the host or the host machine itself.
 
-**Security**\
+- **Security**\
 This is an extended feature of the isolation provided by Docker. Since all the components are isolated, if one of the components is compromised, others remain unaffected.
 
-**CI/CD**\
+- **CI/CD**\
 With a simple `docker push` command, you can push the changes from a development to test environment. When the testing is complete, you may simply docker push the application to DockerHub repository or to the production environment, thus strengthening your CI/CD game.
 
 ## Resources
