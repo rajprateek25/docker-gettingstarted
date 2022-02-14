@@ -136,7 +136,7 @@ Now, on the host machine, open your web browser to http://localhost:3000. You sh
 
 ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic15.JPG)
 
-Test your application by adding a few items to the list, removing items or marking items as complete.
+Deployment is complete! Test your application by adding a few items to the list, removing items or marking items as complete.
 
 ## Leveraging Docker-Tech!
 Docker has many advantages and application scenarios:
