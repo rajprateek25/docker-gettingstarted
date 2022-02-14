@@ -62,11 +62,10 @@ Renames the container to a custom name using `--name` switch.
 
 ## Download and Run a simple application in a Docker Container
 **What is the Application about?**
-> The application is a simple To Do list where you can add or delete items. You may also mark the entries as completed.
+> The code creates a simple 'To Do' list where you can add/remove items or also mark the entries as complete.
 
-
-Running an application involves following steps:
-1. Download the application code.
+Running the application involves following steps:
+1. Download the code.
 1. Create a Docker Image using Dockerfile. 
 1. Spin up a Container using Docker Image.
 
