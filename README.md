@@ -87,14 +87,14 @@ $ git clone https://github.com/docker/getting-started.git
 
 #### Clone via SSH
 To clone the project using ssh, first create an ssh key pair and upload the public key in your GitHub account.
-- Create ssh key pair using `ssh-keygen` <br>
+- Create ssh key pair using `ssh-keygen`
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic7.JPG)
 
-- You may view the public/private keys under ~/.ssh directory <br>
+- You may view the public/private keys under ~/.ssh directory
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic8.JPG)
 
 - Add the public key to your GitHub Account  
-  Go to **Settings** -> **SSH and GPG Keys** -> **New SSH Key** --> Paste the public key and Enter a Title -> **Add SSH Key** \
+  Go to **Settings** -> **SSH and GPG Keys** -> **New SSH Key** --> Paste the public key and Enter a Title -> **Add SSH Key**
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic12.JPG)
 
 You may now use ssh to clone the repository:
@@ -105,7 +105,7 @@ $ git clone git@github.com:docker/getting-started.git
 
 > TIP:
 - If you face issues cloning the project via https/ssh, check your DNS settings and ensure you're not connected to a VPN. 
-- After the project is cloned, you may use `code .` from within the WSL to open the project for editing.
+- After the project is cloned, you may use `code .` from within the WSL to open the project for editing in [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic14.JPG)
 
 ### Create Container Image
