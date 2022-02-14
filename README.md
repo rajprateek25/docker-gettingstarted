@@ -138,6 +138,8 @@ Now, on the host machine, open your web browser to http://localhost:3000. You sh
 
 Test your application by adding a few items to the list, removing items or marking items as complete.
 
+## Leveraging Docker-Tech
+
 ## Resources
 
 Topic | Web Link
