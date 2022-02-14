@@ -144,6 +144,7 @@ Test your application by adding a few items to the list, removing items or marki
   - https://docs.microsoft.com/en-us/windows/wsl/setup/environment#set-up-your-linux-username-and-password
   - https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
 - Docker: 
+  - https://docs.docker.com/get-started/overview/
   - https://docs.docker.com/engine/reference/commandline/docker/
   - https://docs.docker.com/compose/
 - Linux:
