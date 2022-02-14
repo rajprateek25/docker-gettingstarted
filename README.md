@@ -29,7 +29,7 @@ Apart from Microsoft Store, we may also use WSL commands in powershell or comman
 Click here to learn more about [Basic WSL Commands](https://docs.microsoft.com/en-us/windows/wsl/basic-commands)
 
 ## Getting acquainted with Docker
-The following commands will help get started with Docker:
+The following commands will help you get started with Docker:
 ```
 $ docker pull redis
 ```
