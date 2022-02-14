@@ -140,13 +140,13 @@ Test your application by adding a few items to the list, removing items or marki
 
 ## Resources
 - Windows Subsystem for Linux: 
- - https://docs.microsoft.com/en-us/windows/wsl/install
- - https://docs.microsoft.com/en-us/windows/wsl/setup/environment#set-up-your-linux-username-and-password
- - https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
+  - https://docs.microsoft.com/en-us/windows/wsl/install
+  - https://docs.microsoft.com/en-us/windows/wsl/setup/environment#set-up-your-linux-username-and-password
+  - https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
 - Docker: 
- - https://docs.docker.com/engine/reference/commandline/docker/
- - https://docs.docker.com/compose/
+  - https://docs.docker.com/engine/reference/commandline/docker/
+  - https://docs.docker.com/compose/
 - Linux:
- - https://www.ssh.com/academy/ssh/keygen
- - https://www.techradar.com/in/news/best-dns-server
- - https://askubuntu.com/questions/130452/how-do-i-add-a-dns-server-via-resolv-conf
+  - https://www.ssh.com/academy/ssh/keygen
+  - https://www.techradar.com/in/news/best-dns-server
+  - https://askubuntu.com/questions/130452/how-do-i-add-a-dns-server-via-resolv-conf
