@@ -63,7 +63,7 @@ Renames the container to a custom name using `--name` switch.
 ## Download and Run a simple application in a Docker Container
 **What is the Application about?**
 > The code creates a simple 'To Do' list where you can add/remove items or also mark the entries as complete.
-<br>
+
 Running the application involves following steps:
 1. Download the code.
 1. Create a Docker Image using Dockerfile. 
@@ -87,13 +87,13 @@ $ git clone https://github.com/docker/getting-started.git
 
 #### Clone via SSH
 To clone the project using ssh, first create an ssh key pair and upload the public key in your GitHub account.
-- Create ssh key pair using `ssh-keygen`
+- Create ssh key pair using `ssh-keygen` \
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic7.JPG)
 
-- You may view the public/private keys under ~/.ssh directory
+- You may view the public/private keys under ~/.ssh directory \
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic8.JPG)
 
-- Add the public key to your GitHub Account
+- Add the public key to your GitHub Account \
 
   Go to **Settings** -> **SSH and GPG Keys** -> **New SSH Key** --> Paste the public key and Enter a Title -> **Add SSH Key**
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic12.JPG)
@@ -108,7 +108,7 @@ $ git clone git@github.com:docker/getting-started.git
 
 > TIP:
 - If you face issues cloning the project via https/ssh, check your DNS settings and ensure you're not connected to a VPN. 
-- After the project is cloned, you may use `code .` from within the WSL to open the project for editing.
+- After the project is cloned, you may use `code .` from within the WSL to open the project for editing. \
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic14.JPG)
 
 ### Create Container Image
