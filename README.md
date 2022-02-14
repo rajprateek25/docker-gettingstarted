@@ -109,25 +109,23 @@ $ git clone git@github.com:docker/getting-started.git
   ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic14.JPG)
 
 ### Create Container Image
-We need to use a `Dockerfile` to build the application. A Dockerfile is a text-based script of instructions that is used to create a container image.
-
+We use a `Dockerfile` to build the application. A Dockerfile is a text-based script of instructions that is used to create a container image.
 1. Create a file named `Dockerfile` in the same folder as the file `package.json` with the following contents.
-    ``` docker 
-    # syntax=docker/dockerfile:1
-    FROM node:12-alpine
-    RUN apk add --no-cache python2 g++ make
-    WORKDIR /app
-    COPY . .
-    RUN yarn install --production
-    CMD ["node", "src/index.js"]
-    ```
+   ``` docker 
+   # syntax=docker/dockerfile:1
+   FROM node:12-alpine
+   RUN apk add --no-cache python2 g++ make
+   WORKDIR /app
+   COPY . .
+   RUN yarn install --production
+   CMD ["node", "src/index.js"]
+   ```
 1. Switch to the `app` directory and build the container image using `docker build` command
-    ```
-    $ docker build -t getting-started .
-    ```
-    `-t` flag tags the image with name **getting-started**.
-    
-    `.` at the end of the docker build command tells Docker to look for the Dockerfile in the current directory.
+   ```
+   $ docker build -t getting-started .
+   ```
+   `-t` flag tags the image with name **getting-started**.\ 
+   `.` at the end of the docker build command tells Docker to look for the Dockerfile in the current directory.
 
 ### Spin the Container
 Start the container using the `docker run` command and specify the name of the image we just created:
