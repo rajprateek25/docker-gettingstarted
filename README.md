@@ -79,7 +79,7 @@ You can easily download the project .zip file as shown in the screenshot below:
 ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic5.JPG)
 
 #### Clone via HTTPS
-Since the GitHub repository `getting started` is public, you can simply use following command to clone the project:
+Since the GitHub repository *getting started* is public, you can simply use following command to clone the project:
 ```
 $ git clone https://github.com/docker/getting-started.git
 ```
@@ -138,14 +138,14 @@ Now, on the host machine, open your web browser to http://localhost:3000. You sh
 
 Test your application by adding a few items to the list, removing items or marking items as complete.
 
-## Leveraging Docker-Tech
-Docker technology has many advantages and application scenarios:\
+## Leveraging Docker-Tech!
+Docker has many advantages and application scenarios:
 
 **Light-weight**\
 Docker uses OS-level virtualization unlike Virtual Machines. This allows the applications to be packaged with their dependencies and delivered in light-weight containers.
 
 **Reproducibility**\
-Application is developed locally and shared as Docker Containers. The exact configurations of a container is written in the `DockerFile`. Sharing the `DockerFile` among team members ensures identical functionality and thus standardized applications.
+Application is developed locally and shared as Docker Containers. The exact configurations of a container is written in the `DockerFile`. Sharing the DockerFile among team members ensures identical functionality and thus standardized applications.
 
 **Portability**\
 Docker containers can run on a laptop, on physical or virtual machines in a data center, on cloud providers, or in a hybrid of these environments.
@@ -158,7 +158,7 @@ We can run multiple applications on one piece of infrastructure without interfer
 This is an extended feature of the isolation provided by Docker. Since all the components are isolated, if one of the components is compromised, others remain unaffected.
 
 **CI/CD**\
-With a simple `docker push` command, you can push the changes from a development to test environment. When the testing is complete, you may simply `docker push` the application to DockerHub repository or to the production environment, thus strengthening your CI/CD game.
+With a simple `docker push` command, you can push the changes from a development to test environment. When the testing is complete, you may simply docker push the application to DockerHub repository or to the production environment, thus strengthening your CI/CD game.
 
 ## Resources
 
