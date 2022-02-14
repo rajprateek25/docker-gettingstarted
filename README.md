@@ -4,7 +4,7 @@ The purpose of this document is to provide a walk-through for:
 - Getting acquainted with Docker
 - Downloading and running a simple application in a Docker Container
 
-<br>
+<br />
 ## Docker Desktop on Windows
 Follow the steps on the below link to install Docker on your desktop:
 - [Install Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/ "Official Website: Docker")
