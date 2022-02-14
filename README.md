@@ -62,7 +62,7 @@ Renames the container to a custom name using `--name` switch.
 
 ## Download and Run a simple application in a Docker Container
 **What is the Application about?**
-> The code creates a simple 'To Do' list where you can add/remove items or also mark the entries as complete.
+> The code creates a simple 'To Do' list where you can add/remove items or also mark the entries as complete.\
 
 Running the application involves following steps:
 1. Download the code.
@@ -73,7 +73,7 @@ Running the application involves following steps:
 - You can find the project source code at [Github repository](https://github.com/docker/getting-started)
 - You may download the code as a zip file or clone the repository via https/ssh.
 
-#### Download .Zip
+#### Download the .Zip file
 You can easily download the project .zip file as shown in the screenshot below:
 
 ![alt text](https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bm29mfisnvsu/b/docker-gettingstarted/o/pic5.JPG)
